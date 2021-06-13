@@ -61,6 +61,8 @@ public class LoginTest extends WebDriverWrapper {
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//span[normalize-space()='799']")).click();
 		
+		driver.findElement(By.xpath("//span[@class='range-revamp-btn__label']")).click();
+		
 		
 	}
 	
